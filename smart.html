@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <body bgcolor="silver" background="">
+        <h2 align="center" > smartfit </h2>
+        <table width="800" align="center" bgcolor="lightblue">
+          <tr><td>
+      <fieldset>
+        <legend> informe seus dados : </legend>
+        <form action="enviar.php" method="post" name="cadastro">
+         <table cllpadding="5" cellspacing="3" align="center"
+            <table border="4">
+            <tr>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro de Academia Smartfit </title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Dados da Inscrição: </legend>
+            <table>
+                <tr>
+                    <td><label for="nome-pessoa">Nome da pessoa:</label></td>
+                    <td><input type="text" id="nome-pessoa" name="nome-pessoa" required></td>
+                </tr>
+                <tr>
+                    <td><label for="local">Local:</label></td>
+                    <td><input type="text" id="local" name="local" required></td>
+                </tr>
+                <tr>
+                    <td><label for="data">Data:</label></td>
+                    <td><input type="date" id="data" name="data" required></td>
+                </tr>
+                <tr>
+                    <td><label for="hora">Hora de malhar:</label></td>
+                    <td><input type="time" id="hora" name="hora" required></td>
+                </tr>
+                <tr>
+                    <td><label for="modalidade">Modalidade:</label></td>
+                <td>
+                    <select id="modalidade" name="modalidade" required>
+                        <option value="Ginastica funcional">Ginastica funcional</option>
+                        <option value="Hipertrofia">Hipertrofia</option>
+                        <option value="Bike">Bike</option>
+                        <option value="Abdominal">Abdominal</option>
+                        <option value="Cardio">Cardio</option>
+                    </select>
+                </td>
+            </tr>
+                <tr>
+                <td><label for="faixa_etaria">Faixa Etária:</label></td>
+                <td><input type="range" id="faixa_etaria" name="faixa_etaria" min="0" max="100" step="1" required></td>
+                </tr>
+                <tr>
+                    <td><label for="inscricao">Taxa de Inscrição:</label></td>
+                    <td><input type="number" id="inscricao" name="inscricao" required></td>
+                </tr>
+                <tr>
+                    <td><label for="cor">Cor do Uniforme:</label></td>
+                    <td><input type="color" id="cor" name="cor"></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Detalhes da Smartfit</legend>
+            <table>
+                <tr>
+                    <td><label for="descricao">Descrição do Evento:</label></td>
+                    <td><textarea id="descricao" name="descricao" rows="4" cols="50" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="ativo">Evento Ativo:</label></td>
+                    <td><input type="checkbox" id="ativo" name="ativo" checked></td>
+                </tr>
+                <tr>
+                    <td><label for="idade-minima">Idade Mínima:</label></td>
+                    <td><input type="number" id="idade-minima" name="idade-minima" min="0" max="100"></td>
+                </tr>
+                <tr>
+                    <td><label for="vagas-disponiveis">Vagas Disponíveis:</label></td>
+                    <td><input type="range" id="vagas-disponiveis" name="vagas-disponiveis" min="0" max="100" step="1"></td>
+                </tr>
+                <tr>
+                    <td><label for="preco-ingresso">Preço do Ingresso:</label></td>
+                    <td><input type="range" id="preco-ingresso" name="preco-ingresso" min="0" max="100" step="0.01"></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+       
+    </tr>
+    <tr>
+    <th colspan="2"> 
+<input type="submit" id="enviar" name="enviar" value="ENVIAR DADOS"/>
+<input type="reset" id="limpar" name="limpar" value="LIMPAR"/> </th>
+    </tr>
+    </form>
+</body background >
+</html>
